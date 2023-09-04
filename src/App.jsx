@@ -5,6 +5,7 @@ import { GlobalScrollbar } from "mac-scrollbar";
 import useStores from "@/hooks/useStores";
 import Header from "@/components/header";
 import SiteStatus from "@/components/siteStatus";
+import Footer from "@/components/footer";
 
 const App = observer(() => {
   const { cache, status } = useStores();
